@@ -82,6 +82,17 @@
     letter-spacing: $sevenFontSpace;
 }
 
+// // EighthFontSize: 16px LineHeight: 24px
+
+@mixin eightFont{
+    font-size: $eightFontSize;
+    font-weight: $eightFontWeight;
+    font-family: $eightFontFamily;
+    color: $eightFontColor;
+    line-height: $eightFontHeight;
+    letter-spacing: $eightFontSpace;
+}
+
 // Button
 
 @mixin button{
