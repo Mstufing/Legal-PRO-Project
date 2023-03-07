@@ -267,6 +267,7 @@
 .fourth-page-main-container{
     width: 100%;
     height: 890px;
+    background-color: #FFFFFF;
         .inner-fourth-page-div{
             width: 1050px;
             height: 847px;
@@ -349,5 +350,70 @@
                             }
                     }
             }
+        }
+}
+
+// Fifth Page
+
+.fifth-page-main-container{
+    width: 100%;
+    height: 340px;
+    background-color: #FAFAFA;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        .inner-top-div{
+            width: 1050px;
+            height: 175px;
+                .icons-div{
+                    width: 100%;
+                    height: 175px;
+                    @include display;
+                    justify-content: space-between;
+                }
+        }
+
+        .inner-middle-div{
+            width: 1050px;
+            height: 165px;
+            @include displayColumn2;
+                .subscribe-div{
+                    width: 986px;
+                    height: 124px;
+                    background-color: #295C7A;
+                    @include displayColumn2;
+                        .inner-subscribe-div{
+                            width: 884px;
+                            height: 64px;
+                            @include display1;
+                                h3{
+                                    @include secondFont;
+                                    color: white;
+                                }
+                                .input-div{
+                                    width: 450px;
+                                    height: 58px;
+                                    display: flex;
+                                        .inner-input-div{
+                                            width: 80%;
+                                                input{
+                                                    width: 100%;
+                                                    height: 56px;
+                                                }
+                                        }
+                                        .button-div{
+                                            width: 20%;
+                                                button{
+                                                    width: 100%;
+                                                    height: 60px;
+                                                    background-color: #D0A144;
+                                                    border: none;
+                                                    color: white;
+                                                }
+                                        }
+                                }
+                        }
+                }
         }
 }

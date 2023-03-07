@@ -126,6 +126,13 @@
     align-content: center;
 }
 
+@mixin display1{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
 @mixin display2{
     display: flex;
     justify-content: space-between;

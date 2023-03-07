@@ -370,6 +370,7 @@
 .fourth-page-main-container {
   width: 100%;
   height: 890px;
+  background-color: #FFFFFF;
 }
 .fourth-page-main-container .inner-fourth-page-div {
   width: 1050px;
@@ -488,4 +489,84 @@
   line-height: 24px;
   color: #737373;
   letter-spacing: 0.2px;
+}
+
+.fifth-page-main-container {
+  width: 100%;
+  height: 340px;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fifth-page-main-container .inner-top-div {
+  width: 1050px;
+  height: 175px;
+}
+.fifth-page-main-container .inner-top-div .icons-div {
+  width: 100%;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+.fifth-page-main-container .inner-middle-div {
+  width: 1050px;
+  height: 165px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.fifth-page-main-container .inner-middle-div .subscribe-div {
+  width: 986px;
+  height: 124px;
+  background-color: #295C7A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.fifth-page-main-container .inner-middle-div .subscribe-div .inner-subscribe-div {
+  width: 884px;
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+.fifth-page-main-container .inner-middle-div .subscribe-div .inner-subscribe-div h3 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Martel;
+  line-height: 32px;
+  color: #252B42;
+  letter-spacing: 0.1px;
+  color: white;
+}
+.fifth-page-main-container .inner-middle-div .subscribe-div .inner-subscribe-div .input-div {
+  width: 450px;
+  height: 58px;
+  display: flex;
+}
+.fifth-page-main-container .inner-middle-div .subscribe-div .inner-subscribe-div .input-div .inner-input-div {
+  width: 80%;
+}
+.fifth-page-main-container .inner-middle-div .subscribe-div .inner-subscribe-div .input-div .inner-input-div input {
+  width: 100%;
+  height: 56px;
+}
+.fifth-page-main-container .inner-middle-div .subscribe-div .inner-subscribe-div .input-div .button-div {
+  width: 20%;
+}
+.fifth-page-main-container .inner-middle-div .subscribe-div .inner-subscribe-div .input-div .button-div button {
+  width: 100%;
+  height: 60px;
+  background-color: #D0A144;
+  border: none;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
