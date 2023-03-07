@@ -261,3 +261,93 @@
                 }
         }
 }
+
+// Fourth Page
+
+.fourth-page-main-container{
+    width: 100%;
+    height: 890px;
+        .inner-fourth-page-div{
+            width: 1050px;
+            height: 847px;
+            margin: $mainMarginAuto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .fourth-page-top-div{
+                width: 100%;
+                height: 105px;
+                @include displayColumn2;
+                    .top-info-div{
+                        width: 864px;
+                        @include displayColumn2;
+                        gap: 10px;
+                            h2{
+                                @include sevenFont;
+                            }
+                            p{
+                                width: 430px;
+                                @include sixFont;
+                                text-align: center;
+                            }
+                    }   
+            }
+
+            .fourth-page-bottom-div{
+                width: 100%;
+                height: 442px;
+                position: relative;
+                @include display2;
+                    .left-section{
+                        width: 597px;
+                        height: 442px;
+                        background-image: url(/images/cover.png);
+                            img{
+                                position: absolute;
+                                top: 172px;
+                                left: 250px;
+                                cursor: pointer;
+                            }
+                    }
+
+                    .right-section{
+                        width: 333px;
+                        height: 442px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                            .right-section-top-div{
+                                width: 90%;
+                                height: 210px;
+                                    h2{
+                                        @include sevenFont;
+                                    }
+                                    p{
+                                        @include sixFont;
+                                    }
+                            }
+
+                            .card-item{
+                                width: 100%;
+                                height: 77px;
+                                display: flex;
+                                    .card-item-icon-div{
+                                        width: 32px;
+                                        margin-right: 20px;
+                                    } 
+                                    .card-item-info-div{
+                                        width: 273px;
+                                        height: 77px;
+                                            h5{
+                                                @include eightFont;
+                                            }
+                                            h6{
+                                                @include firstFont;
+                                                letter-spacing: 0.2px;
+                                            }
+                                    }
+                            }
+                    }
+            }
+        }
+}
