@@ -9,6 +9,7 @@
 
 .main-container{
     @include mainContainer;
+    height: 2000px;
 }
 
 // Header
@@ -149,4 +150,49 @@
             }
     }
     
+}
+
+// Second Page
+.second-page-main-container{
+    width: 100%;
+    height: 526px;
+        .inner-second-page-div{
+            width: 73%;
+            height: 512px;
+            margin: $mainMarginAuto;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+                .second-page-top-div{
+                    width: 864px;
+                    height: 100px;
+                    margin: $mainMarginAuto;
+                    @include displayColumn;
+                        h2{
+                            @include sevenFont;
+                        }
+                        p{
+                            width: 468px;
+                            @include sixFont;
+                            text-align: center;
+                        }
+                }
+                .second-page-bottom-div{
+                    width: 100%;
+                    @include display2;
+                        .icon-info-div{
+                            width: 230px;
+                            height: 202px;
+                            background-color: #ffffff;
+                            @include displayColumn2;
+                                h2{
+                                    @include sevenFont;
+                                    margin: 10px 0
+                                }
+                                h5{
+                                    @include sixFont;
+                                }
+                        }
+                }
+        }
 }

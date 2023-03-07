@@ -5,12 +5,6 @@
     background: $mainBgColor
 }
 
-@mixin display{
-    display: flex;
-    align-items: center;
-    align-content: center;
-}
-
 
 // FirstFontSize:14px LineHeight: 24px
 
@@ -77,6 +71,17 @@
     letter-spacing: $sixFontSpace;
 }
 
+// SeventhFontSize: 40px LineHeight: 50px
+
+@mixin sevenFont{
+    font-size: $sevenFontSize;
+    font-weight: $sevenFontWeight;
+    font-family: $sevenFontFamily;
+    color: $sevenFontColor;
+    line-height: $sevenFontHeight;
+    letter-spacing: $sevenFontSpace;
+}
+
 // Button
 
 @mixin button{
@@ -84,4 +89,33 @@
     height: 48px;
     border-radius: 24px;
     cursor: pointer;
+}
+
+// Display
+
+@mixin displayColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+@mixin displayColumn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+@mixin display{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+@mixin display2{
+    display: flex;
+    justify-content: space-between;
 }

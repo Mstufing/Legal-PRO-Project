@@ -3,7 +3,7 @@
 $mainWidth: 1440px;
 $mainMarginAuto: auto;
 $mainBorder: 2px solid black;
-$mainBgColor: aqua;
+$mainBgColor: #FAFAFA;
 
 
 // FirstFontSize:14px LineHeight: 24px
@@ -50,7 +50,7 @@ $fiveFontFamily: Open Sans;
 $fiveFontHeight: 28px;
 $fiveFontSpace: 0.2px;
 
-// // SixthFontSize: 14px LineHeight: 20px
+// SixthFontSize: 14px LineHeight: 20px
 
 $sixFontSize: 14px;
 $sixFonWeight: 400;
@@ -58,3 +58,12 @@ $sixFontFamily: Open Sans;
 $sixFontColor: #737373;
 $sixFontHeight: 20px;
 $sixFontSpace: 0.2px;
+
+// SeventhFontSize: 40px LineHeight: 50px
+
+$sevenFontSize: 40px;
+$sevenFontWeight: 700;
+$sevenFontFamily: Martel;
+$sevenFontColor: #252B42;
+$sevenFontHeight: 50px;
+$sevenFontSpace: 0.2px;
